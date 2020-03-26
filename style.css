@@ -1,0 +1,88 @@
+/* Colors anb fonts */
+
+body {
+	background-color: #dfe4ea;
+	font-family: Gotu;
+	color: #dfe4ea;
+	line-height: 32px;
+}
+
+h1 {
+	color: white;
+	font-family: Questrial;
+	font-size: 60px;
+	text-align: center;
+	line-height: 60px;
+}
+
+h2	{
+	color: #FF4F71;
+	font-family: Roboto, sans-serif;
+	font-size: 40px;
+	font-weight: 700;
+}
+
+a {
+	text-decoration: none;
+	color: white;
+}
+
+a:hover {
+	text-decoration: underline;
+	color: #FF4F71;
+}
+
+/* Custom design with class */
+
+.container {
+	width: 700px;
+	margin: 40px auto;
+}
+
+.card-white {
+	background-color: #003C72;
+	padding: 40px;
+	box-shadow: 0px 10px 30px rgba(0,0,0,0.5);
+	border-radius: 4px;
+	margin: 20px 0px;
+	text-align: center;
+}
+
+.img-circle {
+	border-radius: 40%;
+    box-shadow: 0px 5px 50px rgba(0,0,0,0.6);
+}
+
+.img-bordered {
+  	border: 5px solid #dfe4ea;
+}
+
+.btn-pink {
+	background-color: #FF4F71;
+	color: white;
+	padding: 15px 20px;
+	border-radius: 4px;
+}
+
+.btn-pink:hover {
+	background-color: white;
+	color: #FF4F71;
+}
+
+.list-inline {
+	list-style: none;
+	padding: 0px;
+}
+
+.list-inline li {
+	display: inline;
+	padding: 15px;
+}
+
+.list-inline i {
+	font-size: 50px;
+}
+
+#introduction p {
+	margin-bottom: 40px
+}
